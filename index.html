@@ -3,7 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./css/style.css" />
     <title>TechWave</title>
   </head>
-  <body></body>
+  <body class="inter-font">
+    <div class="max-w-[1600px] m-auto">
+      <header class="bg-dark-blue">
+        <div class="container flex justify-between items-center">
+          <h1>Tech<span class="logo-color">Wave</span></h1>
+          <nav>
+            <ul
+              class="list none text-white capitalize flex gap-8 opacity-90 text-base"
+            >
+              <li><a href="#">about</a></li>
+              <li><a href="#">episodes</a></li>
+              <li><a href="#">host</a></li>
+            </ul>
+          </nav>
+          <button class="header-btn">
+            subscribe <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </header>
+      <section class="hero-section">
+        <divc class="container">
+          <div class="hero-img">
+            <img src="./assets/microphone.png" alt="" />
+            <p>new</p>
+          </div>
+          <div class="hero-text">
+            <h2>TechWave</h2>
+            <p>
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div class="hero-btn">
+              <button>
+                <img src="./assets/spotify.png" alt="" />
+                Listen On Spotify
+              </button>
+              <button>
+                <img src="./assets/message.png" alt="" />Subscribe
+              </button>
+            </div>
+          </div>
+        </divc>
+      </section>
+      <section class="about-section bg-dark-blue pt-12 pb-28">
+        <div class="container text-center">
+          <div class="about-text">
+            <h2 class="section-header">About the Podcast</h2>
+            <p class="section-p">
+              TechWave is your go-to podcast for staying ahead in the fast-paced
+              world of technology.<br />
+              We break down complex topics into digestible insights, explore
+              productivity strategies that actually work,<br />
+              and share stories of personal growth from industry leaders.<br /><br /><br />
+              Join thousands of young professionals and tech enthusiasts who
+              start their day with TechWave.
+            </p>
+            <hr class="text-white opacity-10 mt-20" />
+          </div>
+          <div class="counter flex m-auto gap-20 justify-around mt-20">
+            <div class="counter-card">
+              <h2>150k+</h2>
+              <p>Month Listeners</p>
+            </div>
+            <div class="counter-card">
+              <h2>200+</h2>
+              <p>Episodes Published</p>
+            </div>
+            <div class="counter-card">
+              <h2>4.9★</h2>
+              <p>Average Rating</p>
+            </div>
+            <div class="counter-card">
+              <h2>50+</h2>
+              <p>Industry Experts</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
