@@ -340,7 +340,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 120px;
+  padding: 120px 0;
 }
 
 footer h1 {
@@ -389,7 +389,7 @@ footer h1 {
   }
 
   .hero-section {
-    background-image: url(../assets/hero-bg-moble.png);
+    background-image: url(../assets/hero-bg-mobile.png);
     padding: 50px 0;
     background-size: cover;
   }
@@ -432,5 +432,99 @@ footer h1 {
   .counter {
     flex-wrap: wrap;
     margin-top: 40px;
+  }
+  /* why-choose-section */
+
+  .why-choose-section {
+    padding: 40px 0;
+  }
+
+  .why-choose-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .why-choose-card:nth-child(1) img {
+    margin-top: 0px;
+  }
+
+  .why-choose-card-container .why-choose-card:nth-child(1) {
+    grid-row: auto;
+  }
+  .why-choose-card-container .why-choose-card:nth-child(2),
+  .why-choose-card-container .why-choose-card:nth-child(3),
+  .why-choose-card-container .why-choose-card:nth-child(4) {
+    grid-column: auto;
+  }
+  /* featured-section */
+
+  .featured-section {
+    padding: 60px 0;
+  }
+  .featured-card-container {
+    margin-top: 24px;
+    flex-direction: column;
+  }
+  .featured-card-video iframe {
+    height: 260px;
+  }
+  /* host-section */
+
+  .host-card {
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .host-title {
+    text-align: center;
+  }
+  .host-profile-icon-container {
+    justify-content: center;
+  }
+
+  .host-section {
+    padding-bottom: 40px;
+  }
+  /* footer */
+
+  footer {
+    background-image: url(../assets/footer-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+  }
+
+  footer h1 {
+    font-size: 50px;
+  }
+  .footer-icon-container {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .main-container {
+    margin: 0 auto;
+  }
+  .container {
+    padding: 0 50px;
+  }
+  .hero-section {
+    padding: 65px 0;
+  }
+  .about-section {
+    padding-bottom: 65px;
+  }
+  .why-choose-section {
+    padding: 65px 0;
+  }
+  .featured-section {
+    padding: 65px 0;
+  }
+  .host-section {
+    padding-bottom: 65px;
   }
 }
