@@ -3,9 +3,7 @@
 }
 
 /* share style */
-* {
-  border: 0;
-}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -293,10 +291,10 @@ header nav ul li:hover {
   opacity: 1;
 }
 
-/* host */
+/* host section */
 
-.host {
-  margin-top: 120px;
+.host-section {
+  padding-bottom: 120px;
 }
 .host-card {
   margin-top: 40px;
@@ -407,9 +405,6 @@ footer h1 {
   .featured-card-video iframe {
     height: 168px;
   }
-  .host {
-    margin-top: 65px;
-  }
   footer {
     padding: 65px 0;
   }
@@ -515,7 +510,7 @@ footer h1 {
   /* featured section screen 576px */
 
   .featured-section {
-    padding: 40px 0;
+    padding: 60px 0;
   }
   .featured-card-container {
     margin-top: 24px;
@@ -525,11 +520,8 @@ footer h1 {
     height: 260px;
   }
 
-  /* host-screen-576px */
+  /* host section screen-576px */
 
-  .host {
-    margin-top: 40px;
-  }
   .host-card {
     margin-top: 24px;
     flex-direction: column;
